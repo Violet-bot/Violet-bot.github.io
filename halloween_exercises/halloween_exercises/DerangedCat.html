@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Halloween Store</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<style>
+    span {
+        float: left;
+        width: 400px;
+    }
+    div {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+    }
+    .li_style {
+        height: 30px;
+        width: 125px;
+        border: 2px solid black;
+        background-color: orange;
+        list-style-type:none;
+        margin-right: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .zj2_style {
+        list-style-type: none;
+    }
+    .cat_style {
+        float: left;
+    }
+    .zzz_style {
+        float: right;
+    }
+    .customers_style {
+        float: right;
+        padding: 30px;
+        height:500px;
+        width:125px;
+        background-color:papayawhip;
+    }
+</style>
+<body>
+	
+    <header>
+        <img src="images/pumpkin.gif" alt="Pumpkin" width="85">
+        <h2>The Halloween Store</h2>
+        <h3>For the little Goblin in all of us!</h3>
+    </header>
+    
+    <main>
+        
+            <nav id="nav_menu">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Product List</a></li>
+              <li><a href="members,html" class="current">Personal</a></li>
+              <li class="lastitim"><a href="aboutus">Decorating Ideas</a>
+                  <ul>
+                      <li><a href="#">Out Door</a></li>
+                      <li><a href="#">Indoor</a></li>
+                      <li><a href="#">Table</a></li>
+                      <li><a href="#">Treats</a></li>
+                  </ul>
+              </li>
+              <li><a href="js/">Join Email</a></li>
+            </ul>
+        </nav>
+        
+        <aside>
+                <ul>
+            <li class="li_style"><a href="products/props.html">Props</a></li>
+            <li class="li_style"><a href="products/costumes.html">Costumes</a></li>
+            <li class="li_style"><a href="products/special.html">Special FX</a></li>
+            <li class="li_style"><a href="products/masks.html">Masks</a></li>
+    </ul>
+        </aside>
+        <section>
+            <span>
+             <h2>20'' Deranged Cat</h2>
+                <div class="cat_style">
+                    <img src="images/cat1.jpg" alt="Cat" width="100" >
+                </div>
+                
+                <div>
+                    <p class="zzz_style">This cat provides its own<br>
+                    light and its perfect for a<br>
+                    backyard hauting.<br>
+                    <br><strong>Price</strong>:19.99
+                </p>
+                </div>
+            </span>
+                
+            
+            
+            <div class="customers_style">
+                <p><strong>Customers who bought this product also bought:</strong></p>
+                    <img src="images/flying_bats.jpg" alt="Bats" width="50" >
+                        <li class="zj2_style"><a href="#">Flying bats</a></li>
+                    <img src="images/rat1.jpg" alt="Rat" width="50">
+                        <li class="zj2_style"><a href="#">16° Ugly rat</a></li>
+                    <img src="images/strobe1.jpg" alt="Strobe" width="50">
+                        <li class="zj2_style"><a href="#">Mini strobe light</a></li>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2020 ZhangJiu</p>
+    </footer>
+</body>
+</html>
