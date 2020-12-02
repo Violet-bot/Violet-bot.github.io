@@ -1,0 +1,18 @@
+.banner{
+    height: 500px;
+    
+}
+.banner h1{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 50px;
+}
+.banner p{
+    list-style: 50px;
+    text-align: center;
+    line-height: 55px;
+}
+.copy{
+    margin-top: 100px;
+}

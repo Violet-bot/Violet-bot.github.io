@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 1200px;
+    margin:  0 auto;
+    
+}
+.top{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: linear-gradient(to right,purple,white) ;
+}
+.bord{
+    height: 780px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow:hidden;
+    background-color: white;
+}
+li{
+    list-style: none;
+}
+.nav{
+    height: 40px;
+    background-color:#aab2bd ;
+    font-weight: 700;
+    text-transform:uppercase;
+  
+}
+body{
+    background: url(../images/body.jpg);
+}
+.nav ul{
+    height: 40px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    
+}
+.nav ul li{
+    flex: 1;
+    line-height: 40px;
+    text-align: center;
+
+}
+.nav ul li:hover,a:hover{
+    color:#aab2bd ;
+    background-color: skyblue;
+    
+}
+.copy{
+    height: 40px;
+    line-height: 40px;
+    background-color: #aab2bd;
+    text-align: center;
+}
