@@ -1,0 +1,53 @@
+h2{
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 35px;
+}
+form{
+    font-size: 20px;
+    position: relative;
+}
+form input{
+    width: 250px;
+    height: 30px;
+}
+form div:nth-child(1){
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+form div:nth-child(2){
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+form div:nth-child(3){
+    position: absolute;
+    left: 280px;
+    top:200px;
+}
+form div:nth-child(4){
+    position: absolute;
+    left: 623px;
+    top: 200px;
+}
+form div:nth-child(5){
+    position: absolute;
+    left: 135px;
+    top: 300px;
+}
+form div:nth-child(6){
+    position: absolute;
+    left: 568px;
+    top: 300px;
+}
+form .bottom{
+    position: absolute;
+    top: 400px;
+    left: 380px;
+}
+.copy{
+   margin-top: 499px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/GPA.css">
+</head>
+<body>
+    <div class="bord w">
+        <div class="top w">
+        <h1>Information Management System</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Introduce.html">Introduction</a></li>
+                <li><a href="App.html">Application</a></li>
+                <li><a href="GPA.html">GPA&nbsp;caculate</a></li>
+                <li><a href="about.html">About&nbsp;us</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <form action="">
+            <div class="t1" >Credit1:<input type="text" id="text1" value=""></div>
+            <div class="t2" >Grant&nbsp;&nbsp;Ponint1:<input id="text2" value=""></div>
+            <div class="t3">Credit2:<input type="text" id="text3" value=""></div>
+            <div class="t4" >Grant&nbsp;&nbsp;Ponint2:<input id="text4" value=""></div>
+            <div class="yes" ><input type="button" value="确认" id="dian"></div>
+        </form>
+        <div class="gpa">GPA:<input type="text"  id="sum" value=""></div>
+        </div>
+        <div class="copy w">
+            &copy;copyright2020
+        </div>
+    </div>
+    <script> 
+    
+        var num1=document.getElementById("text1");
+        var num2=document.getElementById("text2");
+        var num3=document.getElementById("text3");
+        var num4=document.getElementById("text4");
+        var sum=document.getElementById("sum");
+        var dian=document.getElementById("dian");
+        dian.onclick=function(){
+            sum.value=(Number(num1.value)*Number(num2.value)+Number(num3.value)*Number(num4.value))/(Number(num1.value)+Number(num3.value))      
+        }
+  
+    </script>
+</body>
+</html>

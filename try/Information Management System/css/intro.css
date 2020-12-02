@@ -1,0 +1,49 @@
+.banner{
+    height: 400px;
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 180px;
+    
+}
+
+.banner .left{
+    width: 400px;
+    margin: 15px;
+    line-height: 35px;
+    margin-top: -70px;
+}
+.banner .right{
+    flex: 1;
+    margin: 15px;
+    margin-top: -70px;
+}
+.banner .left p{
+    background-color: #d2c5f0;
+    border: 1px solid black;
+    padding: 10px;
+}
+.banner .left p:nth-child(2){
+    margin-top: 40px;
+}
+.banner .right p{
+    line-height: 30px;
+    background-color: #d2c5f0;
+    border: 1px solid black;
+    padding: 20px;
+}
+.banner .right table {
+    border: 1px solid black;
+    background-color: #d2c5f0;
+    margin-top: 60px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 800px;
+    
+}
+
+.banner .right table tr td{
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid black;
+}
+

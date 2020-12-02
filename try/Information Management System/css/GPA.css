@@ -1,0 +1,42 @@
+.banner{
+    height: 600px;
+    position: relative;
+    font-size: 24px;
+}
+.banner input{
+    width: 300px;
+    height: 30px;
+}
+.banner .t1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.banner .t2{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+.banner .t3{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+.banner .t4{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+.banner .gpa{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+.banner .yes{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+.copy{
+    margin-top: 50px;
+}
